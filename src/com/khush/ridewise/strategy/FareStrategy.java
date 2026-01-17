@@ -1,4 +1,7 @@
 package com.khush.ridewise.strategy;
 
-public class FareStrategy {
+import com.khush.ridewise.model.Ride;
+
+public interface FareStrategy {
+    double calculateFare(Ride ride);
 }

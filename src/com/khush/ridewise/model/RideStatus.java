@@ -1,4 +1,8 @@
-package com.khush.ridewise.model;
+package com.khush.ridewise.enums;
 
-public class RideStatus {
+public enum RideStatus {
+    REQUESTED,
+    ASSIGNED,
+    COMPLETED,
+    CANCELLED
 }
